@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Draw SVG</title>
+		<meta charset="utf-8"/>
+		<!--meta http-equiv="refresh" content="1000"/-->
+		<script src="d3.min.js" type="text/javascript"></script>
+		<script src="index.js" type="text/javascript"></script>
+        <style type="text/css">
+            body {
+                margin: 0;
+                font-family: sans-serif;
+                font-weight: normal;
+                background-color: gray;
+            }
+            div {
+                margin: 0;
+            }
+            #viz {
+                width: 108;
+                height: 108;
+                border: 1px solid black;
+            }
+		</style>
+		<script type="text/javascript">
+			function init() {
+				draw(3); // 0 - icon background; 1 - icon foreground; 2 - icon foregorund debud; 3 - logo
+			};
+		</script>
+	</head>
+	<body onLoad="init()">
+		<h2>
+			<img src="paul.jpg" style="vertical-align:middle;width:72;height:72" />
+			<span style="color:#6a91aa">Draw SVG</span>
+        </h2>
+        <div id="viz"></div>
+	</body>
+</html>
