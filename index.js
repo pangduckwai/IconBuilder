@@ -91,7 +91,7 @@ function draw(flag) {
 
 	// LOGO
 	let scale = 2.56;
-	let height = 245.76;
+	let height = 299.52;
 	let offsetX = 0;
 	let offsetY = (height - width) / 2 / scale; //original height is same as width
 	let sizeX = width/scale;
