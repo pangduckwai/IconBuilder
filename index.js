@@ -90,12 +90,12 @@ function draw(flag) {
 	let width = 512; // COMMON
 
 	// LOGO
-	let scale = 2.56;
-	let height = 299.52;
-	let offsetX = 0;
+	let scale = 2.1875;
+	let height = 255.9375;
+	let offsetX = (437.5 - width) / 2 / scale; //437.5 is original width of the image
 	let offsetY = (height - width) / 2 / scale; //original height is same as width
-	let sizeX = width/scale;
-	let sizeY = height/scale;
+	let sizeX = 200;
+	let sizeY = 117;
 
 	if (flag === 0) { // Draw icon background
 		let back = d3.select("#viz").append("svg")
@@ -109,11 +109,11 @@ function draw(flag) {
 		return;
 	} else if ((flag === 1) || (flag === 2)) { // Draw icon foreground
 		scale = 16/2.6875;
-		height = 512;
-		offsetX = 12;
-		offsetY = 11;
-		sizeX = 108;
-		sizeY = 108;
+		height = 512; //before scale
+		offsetX = 12; //after scale
+		offsetY = 11; //after scale
+		sizeX = 108;  //after scale
+		sizeY = 108;  //after scale
 	}
 
 	let grph = d3.select("#viz").append("svg")
