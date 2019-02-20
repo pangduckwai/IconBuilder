@@ -86,7 +86,8 @@ let w1 = {"x": 364, "y": 329, "r": 41};
 let w2 = {"x": 142, "y": 329, "r": 41};
 let w3 = {"x": 207, "y": 272, "r": 8};
 
-function draw(flag) {
+let flag = 3; // 0 - icon background; 1 - icon foreground; 2 - icon foregorund debud; 3 - logo
+function draw() {
 	let width = 512; // COMMON
 
 	// LOGO
