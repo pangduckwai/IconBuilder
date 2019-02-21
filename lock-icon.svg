@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+							"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+		width="4.44444in" height="4.44444in"
+		viewBox="0 0 480 480">
+	<defs>
+		<linearGradient id="g1">
+			<stop offset="5%" stop-color="#8c887d" />
+			<stop offset="60%" stop-color="#c4bfbb" />
+			<stop offset="95%" stop-color="#aca89d" />
+		</linearGradient>
+		<linearGradient id="g2">
+			<stop offset="5%" stop-color="#5c5954" />
+			<stop offset="60%" stop-color="#dfdbda" />
+			<stop offset="95%" stop-color="#8c8984" />
+		</linearGradient>
+	</defs>
+	<rect x="83" y="82" width="234" height="232" rx="21" ry="21" style="fill: rgb(247, 244, 180);"></rect>
+	<rect x="83" y="82" width="234" height="93" rx="21" ry="21" style="fill: rgb(107, 77, 62);"></rect>
+	<rect x="83" y="152" width="234" height="30" style="fill: rgb(247, 244, 180);"></rect>
+	<line x1="114" y1="152" x2="114" y2="314" stroke-width="2" stroke="#e96323"></line>
+	<line x1="123" y1="152" x2="123" y2="314" stroke-width="2" stroke="#f0a963"></line>
+	<line x1="83" y1="180" x2="317" y2="180" stroke-width="2" stroke="#80b49c"></line>
+	<line x1="83" y1="208" x2="317" y2="208" stroke-width="2" stroke="#80b49c"></line>
+	<line x1="83" y1="236" x2="317" y2="236" stroke-width="2" stroke="#80b49c"></line>
+	<line x1="83" y1="264" x2="317" y2="264" stroke-width="2" stroke="#80b49c"></line>
+	<line x1="83" y1="292" x2="317" y2="292" stroke-width="2" stroke="#80b49c"></line>
+	<text x="117" y="205" style="fill: black; font-size: 49px; font-family: Comic Sans MS; font-weight: bold;">Secret</text>
+	<text x="117" y="259" style="fill: black; font-size: 49px; font-family: Comic Sans MS; font-weight: bold;">Pad</text>
+	<path fill="url(#g1)" stroke="url(#g1)" stroke-width="1"
+				d="M 219.1,385.5
+           C 219.1,385.5 389.6,354.4 389.6,354.4
+             389.6,354.4 389.6,233.4 389.6,233.4
+             389.6,233.4 361.1,220.2 361.1,220.2
+             361.1,220.2 194.0,238.3 194.0,238.3
+             194.0,238.3 194.1,362.5 194.1,362.5
+             194.1,362.5 219.1,385.5 219.1,385.5 Z
+           M 456.5,217.0" />
+	<path fill="url(#g2)" stroke="url(#g2)" stroke-width="1"
+				d="M 222.9,243.6
+           C 222.9,243.6 222.9,201.3 222.9,201.3
+             222.9,157.3 245.5,109.8 297.1,106.7
+             336.2,108.6 360.0,138.6 361.5,182.6
+             361.5,182.6 361.1,230.0 361.1,230.0
+             359.0,234.3 335.0,235.3 328.7,229.8
+             328.7,229.8 328.7,195.6 328.7,195.8
+             329.3,160.4 315.1,136.6 295.6,140.6
+             277.3,143.3 257.6,167.6 256.4,206.2
+             256.4,206.2 256.4,241.8 256.4,241.8
+             251.5,247.8 223.3,245.6 222.9,243.6 Z" />
+	<line x1="220" y1="260" x2="220" y2="380" stroke-width="1" stroke="#646158"></line>
+	<line x1="218" y1="255" x2="196" y2="240" stroke-width="1" stroke="#646158"></line>
+	<line x1="223" y1="256" x2="385" y2="235" stroke-width="1" stroke="#646158"></line>
+</svg>
