@@ -31,8 +31,8 @@
 	<line x1="83" y1="236" x2="317" y2="236" stroke-width="2" stroke="#80b49c"></line>
 	<line x1="83" y1="264" x2="317" y2="264" stroke-width="2" stroke="#80b49c"></line>
 	<line x1="83" y1="292" x2="317" y2="292" stroke-width="2" stroke="#80b49c"></line>
-	<text x="117" y="205" style="fill: black; font-size: 49px; font-family: Comic Sans MS; font-weight: bold;">Secret</text>
-	<text x="117" y="259" style="fill: black; font-size: 49px; font-family: Comic Sans MS; font-weight: bold;">Pad</text>
+	<text x="117" y="205" style="fill: black; font-size: 49px; font-family: cursive; font-weight: bold;">Secret</text>
+	<text x="117" y="259" style="fill: black; font-size: 49px; font-family: cursive; font-weight: bold;">Pad</text>
 	<path fill="url(#g1)" stroke="url(#g1)" stroke-width="1"
 				d="M 219.1,385.5
            C 219.1,385.5 389.6,354.4 389.6,354.4

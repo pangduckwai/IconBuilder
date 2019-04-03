@@ -88,21 +88,21 @@ function draw() {
 
 	//
 
-	grph.append("line")
-		.attr("x1", 220).attr("y1", 260)
-		.attr("x2", 220).attr("y2", 380)
-		.attr("stroke-width", 1)
-		.attr("stroke", "#646158");
+	// grph.append("line")
+	// 	.attr("x1", 220).attr("y1", 260)
+	// 	.attr("x2", 220).attr("y2", 380)
+	// 	.attr("stroke-width", 1)
+	// 	.attr("stroke", "#646158");
 
-	grph.append("line")
-		.attr("x1", 218).attr("y1", 255)
-		.attr("x2", 196).attr("y2", 240)
-		.attr("stroke-width", 1)
-		.attr("stroke", "#646158");
+	// grph.append("line")
+	// 	.attr("x1", 218).attr("y1", 255)
+	// 	.attr("x2", 196).attr("y2", 240)
+	// 	.attr("stroke-width", 1)
+	// 	.attr("stroke", "#646158");
 
-	grph.append("line")
-		.attr("x1", 223).attr("y1", 256)
-		.attr("x2", 385).attr("y2", 235)
-		.attr("stroke-width", 1)
-		.attr("stroke", "#646158");
+	// grph.append("line")
+	// 	.attr("x1", 223).attr("y1", 256)
+	// 	.attr("x2", 385).attr("y2", 235)
+	// 	.attr("stroke-width", 1)
+	// 	.attr("stroke", "#646158");
 }
